@@ -1,4 +1,4 @@
-I"_0<h1 id="level-up">LEVEL UP</h1>
+I"^1<h1 id="level-up">LEVEL UP</h1>
 <p>On level-up, each character gains an “Ability Point”, these points can be spent for the following:</p>
 
 <ul>
@@ -23,8 +23,8 @@
   <tbody>
     <tr>
       <td style="text-align: left">Animal Handling</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
       <td style="text-align: center"> </td>
       <td style="text-align: right"> </td>
     </tr>
@@ -32,8 +32,8 @@
   <tbody>
     <tr>
       <td style="text-align: left">Arcana</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
       <td style="text-align: center"> </td>
       <td style="text-align: right"> </td>
     </tr>
@@ -41,17 +41,17 @@
   <tbody>
     <tr>
       <td style="text-align: left">Athletics</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: right">X</td>
     </tr>
   </tbody>
   <tbody>
     <tr>
       <td style="text-align: left">Contacts</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
       <td style="text-align: center"> </td>
       <td style="text-align: right"> </td>
     </tr>
@@ -59,8 +59,8 @@
   <tbody>
     <tr>
       <td style="text-align: left">Craft</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
       <td style="text-align: center"> </td>
       <td style="text-align: right"> </td>
     </tr>
@@ -68,8 +68,8 @@
   <tbody>
     <tr>
       <td style="text-align: left">Drive</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
       <td style="text-align: center"> </td>
       <td style="text-align: right"> </td>
     </tr>
@@ -77,8 +77,8 @@
   <tbody>
     <tr>
       <td style="text-align: left">Deception</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
       <td style="text-align: center"> </td>
       <td style="text-align: right"> </td>
     </tr>
@@ -88,15 +88,15 @@
       <td style="text-align: left">Fight</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: right">X</td>
     </tr>
   </tbody>
   <tbody>
     <tr>
       <td style="text-align: left">History</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
       <td style="text-align: center"> </td>
       <td style="text-align: right"> </td>
     </tr>
@@ -104,8 +104,8 @@
   <tbody>
     <tr>
       <td style="text-align: left">Insight</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
       <td style="text-align: center"> </td>
       <td style="text-align: right"> </td>
     </tr>
@@ -113,8 +113,8 @@
   <tbody>
     <tr>
       <td style="text-align: left">Intimidation</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
       <td style="text-align: center"> </td>
       <td style="text-align: right"> </td>
     </tr>
@@ -122,8 +122,8 @@
   <tbody>
     <tr>
       <td style="text-align: left">Investigation</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
       <td style="text-align: center"> </td>
       <td style="text-align: right"> </td>
     </tr>
@@ -131,8 +131,8 @@
   <tbody>
     <tr>
       <td style="text-align: left">Medicine</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
       <td style="text-align: center"> </td>
       <td style="text-align: right"> </td>
     </tr>
@@ -140,8 +140,8 @@
   <tbody>
     <tr>
       <td style="text-align: left">Nature</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
       <td style="text-align: center"> </td>
       <td style="text-align: right"> </td>
     </tr>
@@ -149,8 +149,8 @@
   <tbody>
     <tr>
       <td style="text-align: left">Perception</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
       <td style="text-align: center"> </td>
       <td style="text-align: right"> </td>
     </tr>
@@ -158,8 +158,8 @@
   <tbody>
     <tr>
       <td style="text-align: left">Performance</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
       <td style="text-align: center"> </td>
       <td style="text-align: right"> </td>
     </tr>
@@ -167,8 +167,8 @@
   <tbody>
     <tr>
       <td style="text-align: left">Persuasion</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
       <td style="text-align: center"> </td>
       <td style="text-align: right"> </td>
     </tr>
@@ -176,17 +176,17 @@
   <tbody>
     <tr>
       <td style="text-align: left">Physique</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: right">X</td>
     </tr>
   </tbody>
   <tbody>
     <tr>
       <td style="text-align: left">Religion</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
       <td style="text-align: center"> </td>
       <td style="text-align: right"> </td>
     </tr>
@@ -203,8 +203,8 @@
   <tbody>
     <tr>
       <td style="text-align: left">Sleight of Hand</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
       <td style="text-align: center"> </td>
       <td style="text-align: right"> </td>
     </tr>
@@ -212,8 +212,8 @@
   <tbody>
     <tr>
       <td style="text-align: left">Stealth</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
       <td style="text-align: center"> </td>
       <td style="text-align: right"> </td>
     </tr>
@@ -221,8 +221,8 @@
   <tbody>
     <tr>
       <td style="text-align: left">Survival</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
       <td style="text-align: center"> </td>
       <td style="text-align: right"> </td>
     </tr>
@@ -230,10 +230,10 @@
   <tbody>
     <tr>
       <td style="text-align: left">Will</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: right">X</td>
     </tr>
   </tbody>
 </table>
@@ -268,14 +268,17 @@
   <li>Mana: 1</li>
 </ul>
 
+<h5 id="proficiencies-1">Proficiencies</h5>
+<ul>
+  <li>Light and Medium Armor</li>
+  <li>Simple and Martial Weapons</li>
+</ul>
+
 <h3 id="ranger-feats">Ranger Feats</h3>
 <ul>
   <li><strong>Sneak Attack(1[*lvl] AP)</strong>: When attacking an unaware enemy, or a flanked enemy, deal an additional 1d6[*lvl] damage.</li>
-  <li><strong>Crippling Arrow (1 AP)</strong>: The next ranged attack, if deals damage, halves the movements speed of the target for 2 rounds.
-    <ul>
-      <li><strong>Ensnaring Arrow (1 AP)</strong>: The next ranged attack, if deals damage, reduces the movements speed of the target to 0 for 1 round.</li>
-    </ul>
-  </li>
+  <li><strong>Crippling Arrow (1 AP)</strong>: The next ranged attack, if deals damage, halves the movements speed of the target for 2 rounds.</li>
+  <li><strong>Pet Companion (1 AP)</strong>: You get a pet companion. <a href="haven-rpg-additional\ranger-pets">Pet List</a></li>
   <li><strong>Retreat (2 AP)</strong>: You can exit the threat area of an enemy without giving them attacks of opportunity.</li>
 </ul>
 
@@ -287,6 +290,12 @@
   <li>Mana: 2</li>
 </ul>
 
+<h5 id="proficiencies-2">Proficiencies</h5>
+<ul>
+  <li>Light and Medium Armor</li>
+  <li>Simple and Martial Weapons</li>
+</ul>
+
 <h3 id="priest-feats">Priest Feats</h3>
 <ul>
   <li><strong>Heal (1*lvl AP)</strong>: Touch an ally to heal them by 1d4*lvl. [1*lvl mana]</li>
@@ -295,15 +304,21 @@
       <li><strong>Radiant Barrier (1 AP)</strong>: Give an ally an additional 2 armor for 1 minute. (cost: 1 mana)</li>
     </ul>
   </li>
-  <li>
-    <h2 id="smite-1-ap-attack-an-enemy-with-a-melee-weapon-using-will-if-it-hits-it-deals-an-additional-1d6-radiant-damage-cost-1-mana"><strong>Smite (1 AP)</strong>: Attack an enemy with a melee weapon using <strong><em>Will</em></strong>. If it hits it deals an additional 1d6 radiant damage. (cost: 1 mana)</h2>
-  </li>
+  <li><strong>Smite (1 AP)</strong>: Attack an enemy with a melee weapon using <strong><em>Will</em></strong>. If it hits it deals an additional 1d6 radiant damage. (cost: 1 mana)</li>
 </ul>
+
+<hr />
 
 <h2 id="sorcerer-light">Sorcerer (<strong>Light</strong>)</h2>
 <ul>
   <li>HP: 6</li>
   <li>Mana: 3</li>
+</ul>
+
+<h5 id="proficiencies-3">Proficiencies</h5>
+<ul>
+  <li>Light Armor</li>
+  <li>Simple Weapons</li>
 </ul>
 
 <h3 id="sorcerer-feats">Sorcerer Feats</h3>
@@ -327,6 +342,12 @@
   <li>Mana: 3</li>
 </ul>
 
+<h5 id="proficiencies-4">Proficiencies</h5>
+<ul>
+  <li>Light Armor</li>
+  <li>Simple Weapons</li>
+</ul>
+
 <h3 id="bard-feats">Bard Feats</h3>
 <ul>
   <li><strong>Healing Song (1 AP)</strong>: Start playing a song, all friendly creatures that can hear you regain 1 HP per round for as long as you keep playing. (2 mana)</li>
@@ -342,6 +363,6 @@
   <li><strong>Two Weapon Fighting (1 AP)</strong>: Can use a light weapon in off-hand. Each turn during your attack action, you can attack with that weapon dealing only the base damage.</li>
   <li><strong>Weapon Proficiency(1AP</strong>): When selecting this feat choose a weapon type. Whenever you perform a skillcheck using the chosen weapon type, add +1 to the result.</li>
   <li><strong>Brilliance (1 AP)</strong>: Gain 2 mana. (only if your base mana is more than 0)</li>
-  <li><strong>Multiclass(2 AP)</strong>: Choose a different class, and learn one of its feats that costs <strong><em>1 AP</em></strong>, you may now learn feats from this class. If the new class requires mana, you also gain half of the class starting mana.</li>
+  <li><strong>Multiclass(2 AP)</strong>: Choose a different class, and learn one of its feats that costs <strong><em>1 AP</em></strong>, you may now learn feats from this class. If the new class requires mana, you also gain half of the class starting mana (rounded down, minimum 1).</li>
 </ul>
 :ET
