@@ -158,3 +158,4 @@ A new character starts the game with 15 Skill Point to be distributed. The maxim
 ---
 <a href="../haven-rpg-additional/weapons-and-armors" class="btn btn-info">Weapons and Amors</a>
 <a href="../haven-rpg-additional/general-feats" class="btn btn-info">General Feats</a>
+<a href="../haven-rpg-additional/monsters" class="btn btn-danger">Monsters</a>
