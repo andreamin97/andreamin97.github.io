@@ -61,7 +61,7 @@ A new character starts the game with 15 Skill Point to be distributed. The maxim
 |-----
 |Religion| X | X |  |  |
 |-----
-|Shoot|  |  |  |  |
+|Shoot| X | X | X | X |
 |-----
 |Sleight of Hand| X | X |  |  |
 |-----
@@ -76,7 +76,7 @@ A new character starts the game with 15 Skill Point to be distributed. The maxim
 # CLASSES
 
 ## Fighter (__Heavy__)
-- HP: 12
+- HP: 20
 - Mana: 0
 
 ##### Proficiencies
@@ -92,7 +92,7 @@ A new character starts the game with 15 Skill Point to be distributed. The maxim
 ---
 
 ## Ranger (__Medium__)
-- HP: 8
+- HP: 15
 - Mana: 1
 
 ##### Proficiencies
@@ -102,14 +102,14 @@ A new character starts the game with 15 Skill Point to be distributed. The maxim
 
 ### Ranger Feats
 - __Sneak Attack(1[\*lvl] AP)__: When attacking an unaware enemy, or a flanked enemy, deal an additional 1d6[\*lvl] damage.
-- __Crippling Arrow (1 AP)__: The next ranged attack, if deals damage, halves the movements speed of the target for 2 rounds.
+- __Crippling Arrow (1 AP)__: The next ranged attack, if deals damage, halves the movements speed of the target for 2 rounds. __(cost: 1 mana)__
 - __Pet Companion (1 AP)__: You get a pet companion. <a href="../haven-rpg-additional/ranger-pets">Pet List</a>
 - __Retreat (2 AP)__: You can exit the threat area of an enemy without giving them attacks of opportunity.
 
 ---
 
 ## Priest (__Medium__)
-- HP: 8
+- HP: 15
 - Mana: 2
 
 ##### Proficiencies
@@ -117,15 +117,15 @@ A new character starts the game with 15 Skill Point to be distributed. The maxim
 - Simple and Martial Weapons
 
 ### Priest Feats
-- __Heal (1\*lvl AP)__: Touch an ally to heal them by 1d4\*lvl. [1\*lvl mana]
-- __Blessing (1 AP)__: Give an ally 1d4 bonus on all overcome and create advantage checks for 10 minutes. (cost: 1 mana) 
-    - __Radiant Barrier (1 AP)__: Give an ally an additional 2 armor for 1 minute. (cost: 1 mana) 
-- __Smite (1 AP)__: Attack an enemy with a melee weapon using ___Will___. If it hits it deals an additional 1d6 radiant damage. (cost: 1 mana) 
+- __Heal (1[\*lvl] AP)__: Touch an ally to heal them by 1d4\*lvl. _(1[\*lvl] mana)_
+- __Blessing (1 AP)__: Give an ally 1d4 bonus on all overcome and create advantage checks for 10 minutes. _(cost: 1 mana)_ 
+    - __Radiant Barrier (1 AP)__: Give an ally an additional 2 armor for 1 minute. _(cost: 1 mana)_ 
+- __Smite (1 AP)__: Attack an enemy with a melee weapon using ___Will___. If it hits it deals an additional 1d6 radiant damage. _(cost: 1 mana)_ 
 
 ---
 
 ## Sorcerer (__Light__)
-- HP: 6
+- HP: 10
 - Mana: 3
 
 ##### Proficiencies
@@ -133,17 +133,17 @@ A new character starts the game with 15 Skill Point to be distributed. The maxim
 - Simple Weapons
 
 ### Sorcerer Feats
-- __Shield (1 AP)__: Reduce the damage you are taking by 1d8. Use as reaction (cost: 1 mana) 
-- __Haste (1AP)__: For up to 10 turns, you move twice as fast and can take an addition action each turn. [cost: 2 mana]
-- __Combat Magic (1 AP)__: You can use the __Will__ skill to perform attack and defend actions_
+- __Shield (1 AP)__: Reduce the damage you are taking by 1d8. Use as reaction _(cost: 1 mana)_ 
+- __Haste (1AP)__: For up to 10 turns, you move twice as fast and can take an addition action each turn. _(cost: 2 mana)_
+- __Combat Magic (1 AP)__: You can use the __Will__ skill to perform attack and defend actions
     __Attack__: deal 1d4 elemental damage of your choice, 10m range.
     __Defend__: Create a melee barrier tha blocks the strike, on a critical roll, stun the attacker for 1 round.
-    - __Firebolt (1[*lvl] AP)__: Shoot a Firebolt from your hand, dealing 1d8[*lvl] fire damage. (cost: 1[*lvl] mana) 
+    - __Firebolt (1[*lvl] AP)__: Shoot a Firebolt from your hand, dealing 1d8[*lvl] fire damage. _(cost: 1[*lvl] mana)_ 
 
 ---
 
 ## Bard (_Light_)
-- HP: 6
+- HP: 10
 - Mana: 3
 
 ##### Proficiencies
@@ -160,6 +160,6 @@ A new character starts the game with 15 Skill Point to be distributed. The maxim
 # GENERAL FEATS
 - __Resilience[light/medium/Heavy] (1 AP)__: Gain [2/4/6] max HP.
 - __Two Weapon Fighting (1 AP)__: Can use a light weapon in off-hand. Each turn during your attack action, you can attack with that weapon dealing only the base damage.
-- __Weapon Proficiency(1AP__): When selecting this feat choose a weapon type. Whenever you perform a skillcheck using the chosen weapon type, add +1 to the result. 
+- __Weapon Proficiency(1AP)__: When selecting this feat choose a weapon type. Whenever you perform a skillcheck using the chosen weapon type, add +1 to the result. 
 - __Brilliance (1 AP)__: Gain 2 mana. (only if your base mana is more than 0)
 - __Multiclass(2 AP)__: Choose a different class, and learn one of its feats that costs ___1 AP___, you may now learn feats from this class. If the new class requires mana, you also gain half of the class starting mana (rounded down, minimum 1).
