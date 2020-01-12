@@ -6,10 +6,6 @@ date: 2020-01-11
 comments: false
 ---
 
-# Ranger Pets
-
----
-
 ## Wolf
 
 | Name | Points |
