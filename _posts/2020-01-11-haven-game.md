@@ -165,4 +165,4 @@ A new character starts the game with 15 Skill Point to be distributed. The maxim
 - __Multiclass(2 AP)__: Choose a different class, and learn one of its feats that costs ___1 AP___, you may now learn feats from this class. If the new class requires mana, you also gain half of the class starting mana (rounded down, minimum 1).
 
 ---
-<a href="#" class="btn btn-info">Weapons and Amors</a>
+<a href="../haven-rpg-additional/weapons-and-armors" class="btn btn-info">Weapons and Amors</a>
