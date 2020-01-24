@@ -19,7 +19,7 @@ On level-up, each character gains an "Ability Point", these points can be spent 
 
 # SKILLS
 
-A new character starts the game with 15 Skill Point to be distributed. The maximum amount for each skill is equal to 2+level.
+A new character starts the game with 10 Skill Point to be distributed. The maximum amount for each skill is equal to 2+level.
 
 | Name | Overcome | Create Advantage | Attack | Defend |
 |:-----|:-----:|:-----:|:-----:|-----:|
@@ -27,7 +27,7 @@ A new character starts the game with 15 Skill Point to be distributed. The maxim
 |-----
 |Arcana| X | X |  |  |
 |-----
-|Athletics| X | X | X | X |
+|Athletics| X | X |  |  |
 |-----
 |Contacts| X | X |  |  |
 |-----
@@ -57,7 +57,7 @@ A new character starts the game with 15 Skill Point to be distributed. The maxim
 |-----
 |Persuasion| X | X |  |  |
 |-----
-|Physique| X | X | X | X |
+|Physique| X | X |  |  |
 |-----
 |Religion| X | X |  |  |
 |-----
@@ -69,35 +69,52 @@ A new character starts the game with 15 Skill Point to be distributed. The maxim
 |-----
 |Survival| X | X |  |  |
 |-----
-|Will| X | X | X | X |
+|Will| X | X | X* | X* |
 |=====
 {: rules="groups"}
 ---
 # CLASSES
 
 ## Fighter (__Heavy__)
-- HP: 20
+- HP: 17
 - Mana: 0
 
 ##### Proficiencies
 - Light, Medium and Heavy Armor
 - Simple and Martial Weapons
+- Choose 3 skills from the following list, you start with 2 skill point in them:
+    - Athletics
+    - Craft
+    - Drive
+    - Fight
+    - Intimidation
+    - Physique
+    - Shoot
 
 ### Fighter Feats
 - __Second Wind (1AP)__: Regain 1/3 maxHP (rounded down); can be used once per day. Gain an additional use/day everytime you learn this feat.
 - __Weapon Mastery (1AP)__: When selecting this feat choose a weapon type. Whenever you perform a skillcheck using the chosen weapon type, add +2 to the result. 
-- __Taunt (1AP)__: taunt an enemy, if it tries to attack anyone else but you, it has disadvantage on the attack roll. Use once per combat. Gain an additional use per fight everytime you learn this feat. 
-- __Action Surge (1 AP)__: Gain another standart action this turn.
+- __Taunt (1AP)__: taunt an enemy, if it tries to attack anyone else but you, it has disadvantage on the attack roll. Use once per combat. Gain an additional use everytime an enemy is brought to 0 HP. 
+- __Action Surge (1 AP)__: Gain another standart action. The amount of times you can use it each day is equal to your physique/2 (rounded down).
 
 ---
 
 ## Ranger (__Medium__)
-- HP: 15
+- HP: 12
 - Mana: 1
 
 ##### Proficiencies
 - Light and Medium Armor
 - Simple and Martial Weapons
+- Choose 3 skills from the following list, you start with 2 skill point in them:
+    - Animal Handling
+    - Athletics
+    - Fight
+    - Nature
+    - Perception
+    - Shoot
+    - Stealth
+    - Survival
 
 
 ### Ranger Feats
@@ -109,12 +126,21 @@ A new character starts the game with 15 Skill Point to be distributed. The maxim
 ---
 
 ## Priest (__Medium__)
-- HP: 15
+- HP: 12
 - Mana: 2
 
 ##### Proficiencies
 - Light and Medium Armor
 - Simple and Martial Weapons
+- Choose 3 skills from the following list, you start with 2 skill point in them:
+    - Contacts
+    - Fight
+    - History
+    - Insight
+    - Medicine
+    - Physique
+    - Religion
+    - Will
 
 ### Priest Feats
 - __Heal (1[\*lvl] AP)__: Touch an ally to heal them by 1d4\*lvl. _(1[\*lvl] mana)_
@@ -125,19 +151,28 @@ A new character starts the game with 15 Skill Point to be distributed. The maxim
 ---
 
 ## Sorcerer (__Light__)
-- HP: 10
-- Mana: 3
+- HP: 8
+- Mana: 4
 
 ##### Proficiencies
 - Light Armor
 - Simple Weapons
+- Choose 3 skills from the following list, you start with 2 skill point in them:
+    - Arcana
+    - Craft
+    - Fight
+    - History
+    - Investigation
+    - Perception
+    - Shoot
+    - Will
 
 ### Sorcerer Feats
 - __Shield (1 AP)__: Reduce the damage you are taking by 1d8. Use as reaction _(cost: 1 mana)_ 
 - __Haste (1AP)__: For up to 10 turns, you move twice as fast and can take an addition action each turn. _(cost: 2 mana)_
 - __Combat Magic (1 AP)__: You can use the __Will__ skill to perform attack and defend actions
     __Attack__: deal 1d4 elemental damage of your choice, 10m range.
-    __Defend__: Create a melee barrier tha blocks the strike, on a critical roll, stun the attacker for 1 round.
+    __Defend__: Create a melee barrier tha blocks the strike, on a natural 20 choose one: daze the attacker for 2 round or blink up to 15ft in any direction.
     - __Firebolt (1[*lvl] AP)__: Shoot a Firebolt from your hand, dealing 1d8[*lvl] fire damage. _(cost: 1[*lvl] mana)_ 
 
 ---
@@ -149,11 +184,23 @@ A new character starts the game with 15 Skill Point to be distributed. The maxim
 ##### Proficiencies
 - Light Armor
 - Simple Weapons
+- Choose 3 skills from the following list, you start with 2 skill point in them:
+    - Arcana
+    - Athletics
+    - Contacts
+    - Deception
+    - Insight
+    - Investigation
+    - Perception
+    - Performance
+    - Persuasion
+    - Sleight of Hand
     
 ### Bard Feats
-- __Healing Song (1 AP)__: Start playing a song, all friendly creatures that can hear you regain 1 HP per round for as long as you keep playing. (2 mana)
-- __Inspire courage (1 AP)__: Start playing a song,all friendly creatures that can hear you gain +2 on all ___Attack___ and ___Defend___ rolls for as long as you keep playing (2 mana)
+- __Healing Song (1 AP)__: Start playing a song, all friendly creatures that can hear you regain 1 HP. Each round you may use your bonus action to keep playing. (2 mana)
+- __Inspire courage (1 AP)__: Start playing a song,all friendly creatures that can hear you gain +2 on all ___Attack___ and ___Defend___ rolls. Each round  you may use your bonus action to keep playing. (1 mana)
 - __Charm Person (1 AP)__: Enchant a person to believe you are they're friend for 10 minutes. They will do anything you say. Effect ends early if you order them to do anything armful. (cost: 2 mana) 
+- __Power Chord (1 AP)__: You can use the __Will__ skill to perform attack actions. __Attack__: deal 1d4 psychic damage, 10m range.
 
 ---
 <a href="../haven-rpg-additional/weapons-and-armors" class="btn btn-info">Weapons and Amors</a>
