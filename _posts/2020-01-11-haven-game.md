@@ -19,7 +19,7 @@ On level-up, each character gains an "Ability Point", these points can be spent 
 
 # SKILLS
 
-A new character starts the game with 10 Skill Point to be distributed. The maximum amount for each skill is equal to 2+level.
+A new character starts the game with 10 Skill Point to be distributed. The maximum amount for each skill is equal to your level.
 
 | Name | Overcome | Create Advantage | Attack | Defend |
 |:-----|:-----:|:-----:|:-----:|-----:|
