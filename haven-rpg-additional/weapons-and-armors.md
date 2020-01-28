@@ -36,7 +36,7 @@ comments: false
 
 # Armors
 
-- __Heavy__: +3 amor.
-- __Medium__: +2 armor.
-- __Light__: +1 armor.
-- __Shield__: +1 armor.
+- __Heavy__: +6 amor.
+- __Medium__: +4 armor.
+- __Light__: +2 armor.
+- __Shield__: +1 armor. : Can use fight do defend against non-magical projectiles.
