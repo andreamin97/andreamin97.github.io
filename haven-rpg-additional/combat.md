@@ -33,7 +33,7 @@ On a Critical Defense, based on the skill you're using to defend yourself, you m
 ##### Fight:
 - _Knock Prone_
 - _Disarm_
-- _Parry_
+- _Parry_ : make an attack against your attacker. He is overwhelmed until his next turn.
 
 ### Defend
 You can defend yourself an amount of times equal to your number of attacks, after that you get the status ___overwhelmed___ until your next turn.
