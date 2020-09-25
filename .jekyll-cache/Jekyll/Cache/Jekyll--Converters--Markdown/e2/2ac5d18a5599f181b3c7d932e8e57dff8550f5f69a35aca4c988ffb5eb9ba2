@@ -1,8 +1,0 @@
-I"`<ul>
-  <li><strong>Resilience[light/medium/Heavy] (1 AP)</strong>: Gain [2/4/6] max HP.</li>
-  <li><strong>Two Weapon Fighting (1 AP)</strong>: Can use a light weapon in off-hand. Each turn during your attack action, you can attack with that weapon dealing only the base damage.</li>
-  <li><strong>Weapon Proficiency(1AP)</strong>: When selecting this feat choose a weapon type. Whenever you perform a skillcheck using the chosen weapon type, add +1 to the result.</li>
-  <li><strong>Brilliance (1 AP)</strong>: Gain 2 mana. (only if your base mana is more than 0)</li>
-  <li><strong>Multiclass(2 AP)</strong>: Choose a different class, and learn one of its feats that costs <strong><em>1 AP</em></strong>, you may now learn feats from this class. If the new class requires mana, you also gain half of the class starting mana (rounded down, minimum 1).</li>
-</ul>
-:ET
