@@ -10,8 +10,6 @@ tag:
 comments: false
 ---
 
-<a href="../HavenRpg" class="btn btn-help">Go to the Website</a>
-
 
 # LEVEL UP
 On level-up, each character gains an "Ability Point", these points can be spent for the following:
