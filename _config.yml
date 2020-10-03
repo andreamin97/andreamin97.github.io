@@ -1,6 +1,6 @@
 # Site
 title:              Andrea Designs
-bio:                'A place where I post about my game designs.'
+bio:                'A place where I post my games and related stuff.'
 description:        ""
 reading_time:       true
 words_per_minute:   200
@@ -37,10 +37,10 @@ disqus_shortname:   andreamin97
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-#twitter:            username
+email:              andrea.minucci97@gmail.com
+twitter:            andreamin97
 #facebook:           username
-#github-url:         username
+github-url:         andreamin97
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username

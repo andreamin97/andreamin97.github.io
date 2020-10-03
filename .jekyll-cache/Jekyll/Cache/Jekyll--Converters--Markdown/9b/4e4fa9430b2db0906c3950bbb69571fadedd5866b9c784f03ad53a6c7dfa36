@@ -1,0 +1,44 @@
+I"�<p>These past few days I’ve been thinking on how to make a different leveling mechanic for the game. 
+I want to change the formula that all the auto-battlers have used so far; a bit because I believe it would poorly translate for a purely singleplayer game, a bit because the math doesn’t check out with a core change I want to make, and a bit because I just want to try something new.</p>
+
+<p>There are three main changes I want to test, each one with their fair share of challenges to overcome. I’m going to talk about them but I won’t go into too many details as:<br /> 
+<em>1.</em> I still don’t know either
+<em>2.</em> and/or it has to be playtested because it heavily relies on balance.</p>
+
+<p>So here they are</p>
+
+<h2 id="increase-the-maximum-level-of-units">Increase the maximum level of units.</h2>
+
+<figure>
+ <a href="/assets/img/old-leveling-graph.jpg"><img src="/assets/img/old-leveling-graph.jpg" /></a>
+    <figcaption>Traditional Leveling Graph</figcaption>
+</figure>
+
+<p>Traditionally auto-battlers have mantained the leveling structure shown in the picture above.
+This presents a pretty big issue when I decide to increase the maximum level: the amount of units needed grows exponentially, if we wanted to have a 4 star (the techical term used in the genre so far, from now on I’ll be using star and level interchangeably) we would need 
+\[ {3^{3}}={27} \]</p>
+
+<p>The first major change I would like to introduce is increasing the maximum level (or stars, as they are commonly called in the genre. From now on I’ll use them interchangeably) of the units; this, coupled with the next change should increase the possible combinations and longevity of the game.<br />
+Because of this change, another fundamental change is going to be necessary: as shown in the picture above, to make a 2 stars unit it takes three 1 star units, and to make a 3 stars unit it takes three 2 star units (9 units total). The progression is exponential, making it pretty much impossible to have units reach higher levels if as the amount of units necessary would reach unreasonable numbers ver fast. Just as an example, using the same system, if we wanted to have a 4 stars unit, we would need a whopping <strong>27!</strong> units.</p>
+
+<p>The second change is a lot more experimental and revolves around giving units more spells (for now I’m thinking up to 3).
+As I said in <a href="/DES308-week-1/">the previous post</a>, the game is going to be somewhat inspired by Dungeons and Dragons, and an additional layer of complexity I really want to try is multiclassing: being able to give some unit spells from another class.</p>
+
+<p>For now I have three possible ideas, each with a couple of variations, so lets get started.</p>
+
+<h3 id="1-the-unit-level-is-the-sum-of-the-levels-of-the-spells">1. The unit level is the sum of the levels of the spells</h3>
+<p>In this one, there would be limited ways to acquire units, probably once every three or four fights, but after every fight you get a shop like in any every other auto-battler (random units, and can spend money to reroll them) where you can buy spells. The spells would be class-specific. 
+Instead of leveling the units directly, getting duplicates of spells increase the spell level, and the unit level would be the sum of the levels of all the spell to it assigned.</p>
+
+<h4 id="variant">Variant</h4>
+
+<p>The variant for this leveling system would be to instead have the units level separately (via duplicates), therefore probably, making units acquisition a bit faster, and have the number of spells assignable to it depend on the unit level <em>(e.g.: a level 1 unit can only have one spell, but a level 3 unit can have 2)</em>.</p>
+
+<h3 id="2-level-up-units-and-they-get-more-spells-as-they-do">2. Level up units and they get more spells as they do</h3>
+
+<h3 id="3-units-of-the-same-class-can-have-different-spells">3. Units of the same class can have different spells</h3>
+
+<p>This one is one that I really can’t decided how I feel about. The idea is to have each unit only have one spell from among the class spell list.
+To level up a unit you need three units of the same class, but not necessarily with the same spell; the leveled up unit would then get the spells that other units used had and increase the spells’ levels accordingly.<br />
+<strong>E.g.: The unit in question as <em>Spell 1</em>; to level it up we use to units with <em>Spell 2</em>; the now level 2 unit would have <em>Spell 1</em> at level 1 and <em>Spell 2</em> at level 2.</strong></p>
+:ET

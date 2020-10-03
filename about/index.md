@@ -1,9 +1,14 @@
 ---
 layout: page
 title: About me
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+tags: [about]
+date: 2020-09-21
 comments: false
 ---
-    
-<center><a href="https://andreamin97.github.io/"><b>Who am I?</b></a></center>
+<center>
+Italian game design student.
+</center>
+
+<center>
+ Card games fanatic and RPGs fanboy.
+</center>

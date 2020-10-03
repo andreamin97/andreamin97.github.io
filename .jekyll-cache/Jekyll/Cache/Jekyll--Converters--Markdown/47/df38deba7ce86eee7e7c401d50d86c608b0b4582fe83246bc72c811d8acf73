@@ -1,0 +1,37 @@
+I"d<h1 id="swamp-frog-tribe">Swamp Frog Tribe</h1>
+
+<h2 id="swamp-frog-tribe-melee">Swamp Frog Tribe (melee)</h2>
+
+<ul>
+  <li><strong>HP</strong>: 10</li>
+  <li><strong>Armor(light+shield)</strong>: 2</li>
+</ul>
+
+<hr />
+
+<p><strong>Attack (Shortsword) +2</strong> : 1d6</p>
+
+<h2 id="swamp-frog-tribe-ranged">Swamp Frog Tribe (ranged)</h2>
+
+<ul>
+  <li><strong>HP</strong>: 10</li>
+  <li><strong>Armor(light)</strong>: 1</li>
+</ul>
+
+<hr />
+
+<p><strong>Attack (Shortbow) +2</strong> : 1d4</p>
+
+<h1 id="black-pudding">Black Pudding</h1>
+<ul>
+  <li><strong>HP</strong>: 30</li>
+  <li><strong>Armor(natural)</strong>: 3</li>
+</ul>
+
+<hr />
+<p><strong>Attack +4</strong> : 1d8</p>
+
+<hr />
+
+<p><strong>Corrosive Form</strong>: When hit by a melee weapon, the weapon takes a -1 to hit, when the weapon reaches -5 it is destroyed. Projectiles get corroded after dealing damage.</p>
+:ET

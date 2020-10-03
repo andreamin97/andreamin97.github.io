@@ -1,0 +1,61 @@
+I"<h1 id="combat">Combat</h1>
+
+<p>During combat, each turn, characters have the following actions they can spend:</p>
+<ul>
+  <li><strong>Bonus Action</strong>: you can use one actions that costs one bonus action</li>
+  <li><strong>Standard Action</strong>: you can take the following actions:
+    <ul>
+      <li><em>Attack</em></li>
+      <li><em>Additional Movement</em></li>
+      <li><em>Disengage</em></li>
+      <li>Any other action that costs 1 Standard Action or Bonus Action</li>
+    </ul>
+  </li>
+  <li><strong>Movement Action</strong></li>
+  <li><strong>Reaction</strong></li>
+</ul>
+
+<h2 id="attacking">Attacking</h2>
+<p>Attacking is an opposed roll between the two involed parties, if the attack roll is equal or greater than the defend roll, the attack is successful and can roll the damage.
+On a Natural 20, you incurr on a <em>Critical Strike</em> or <em>Critical Defense</em>, these always prevail on non natural 20 rolls and grants additional benefits:</p>
+
+<h3 id="critical-strike">Critical Strike</h3>
+<p>On a Critical Strike you gain advantage on the damage roll and, based on the weapon’s damage type, the following effect:</p>
+<ul>
+  <li><em>Bludgeoning</em>: if the enemy armor is a heavy armor, deal 1d4 damage to it.</li>
+  <li><em>Piercing</em>: if the enemy armor is a medium armor, deal 1d4 damage to it.</li>
+  <li><em>Slashing</em>: if the enemy armor is a light armor, deal 1d4 damage to it.</li>
+</ul>
+
+<h3 id="critical-defense">Critical Defense</h3>
+<p>On a Critical Defense, based on the skill you’re using to defend yourself, you may:</p>
+<h5 id="fight">Fight:</h5>
+<ul>
+  <li><em>Knock Prone</em></li>
+  <li><em>Disarm</em></li>
+  <li><em>Parry</em> : make an attack against your attacker. He is overwhelmed until his next turn.</li>
+</ul>
+
+<h3 id="defend">Defend</h3>
+<p>You can defend yourself an amount of times equal to your number of attacks, after that you get the status <strong><em>overwhelmed</em></strong> until your next turn.</p>
+
+<h5 id="arcana">Arcana:</h5>
+<ul>
+  <li><em>Stun</em> (1 round)</li>
+  <li><em>Blink</em> in any direction, up to 15ft</li>
+</ul>
+
+<h2 id="armor">Armor</h2>
+<p>Whenever a piece of equipment grants you armor, it is added to you armor total. The <strong>Armor Total</strong> divided by 2 is your <strong>Armor Modifier</strong>.
+Whenever you take damage, you prevent a flat value of that damage equal to your <strong>Armor Modifier</strong>.</p>
+
+<p>Your <strong>Armor Total</strong> can be permanently damaged, when it happens it affects the <strong>Armor Modifier</strong> until it gets repaired (if possible).</p>
+
+<h1 id="statuses">Statuses</h1>
+<ul>
+  <li><strong>Overwhelmed</strong>: You have disadvantage on all defend rolls.</li>
+  <li><strong>Prone</strong>: You must spend you full turn to get back on your feet. You are <em>Overwhelmed</em> while prone.</li>
+  <li><strong>Disarmed</strong>: You must use your movement action to get back your weapon. You cant use <em>Fight</em> to defend.</li>
+  <li><strong>Stunned</strong>: You skip your turn, and cant take any actions for the duration.</li>
+</ul>
+:ET

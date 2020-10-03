@@ -1,0 +1,425 @@
+I"�6<h1 id="level-up">LEVEL UP</h1>
+<p>On level-up, each character gains an “Ability Point”, these points can be spent for the following:</p>
+
+<ul>
+  <li>2 Skill Points (1AP)</li>
+  <li>Feat (1+AP)</li>
+</ul>
+
+<h1 id="skills">SKILLS</h1>
+
+<p>A new character starts the game with 10 Skill Point to be distributed. The maximum amount for each skill is equal to your level.</p>
+
+<table rules="groups">
+  <thead>
+    <tr>
+      <th style="text-align: left">Name</th>
+      <th style="text-align: center">Overcome</th>
+      <th style="text-align: center">Create Advantage</th>
+      <th style="text-align: center">Attack</th>
+      <th style="text-align: right">Defend</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Animal Handling</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Arcana</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Athletics</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Contacts</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Craft</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Drive</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Deception</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Fight</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: right">X</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">History</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Insight</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Intimidation</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Investigation</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Medicine</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Nature</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Perception</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Performance</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Persuasion</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Physique</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Religion</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Shoot</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: right">X</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Sleight of Hand</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Stealth</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Survival</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Will</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X*</td>
+      <td style="text-align: right">X*</td>
+    </tr>
+  </tbody>
+</table>
+<hr />
+<h1 id="classes">CLASSES</h1>
+
+<h2 id="fighter-heavy">Fighter (<strong>Heavy</strong>)</h2>
+<ul>
+  <li>HP: 17</li>
+  <li>Mana: 0</li>
+</ul>
+
+<h5 id="proficiencies">Proficiencies</h5>
+<ul>
+  <li>Light, Medium and Heavy Armor</li>
+  <li>Simple and Martial Weapons</li>
+  <li>Choose 3 skills from the following list, you start with 2 skill point in them:
+    <ul>
+      <li>Athletics</li>
+      <li>Craft</li>
+      <li>Drive</li>
+      <li>Fight</li>
+      <li>Intimidation</li>
+      <li>Physique</li>
+      <li>Shoot</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="fighter-feats">Fighter Feats</h3>
+<ul>
+  <li><strong>Second Wind (1AP)</strong>: Regain 1/3 maxHP (rounded down); can be used once per day. Gain an additional use/day everytime you learn this feat.</li>
+  <li><strong>Weapon Mastery (1AP)</strong>: When selecting this feat choose a weapon type. Whenever you perform a skillcheck using the chosen weapon type, add +2 to the result.</li>
+  <li><strong>Taunt (1AP)</strong>: taunt an enemy, if it tries to attack anyone else but you, it has disadvantage on the attack roll. Use once per combat. Gain an additional use everytime an enemy is brought to 0 HP.</li>
+  <li><strong>Action Surge (1 AP)</strong>: Gain another standart action. The amount of times you can use it each day is equal to your physique/2 (rounded down).</li>
+</ul>
+
+<hr />
+
+<h2 id="ranger-medium">Ranger (<strong>Medium</strong>)</h2>
+<ul>
+  <li>HP: 12</li>
+  <li>Mana: 1</li>
+</ul>
+
+<h5 id="proficiencies-1">Proficiencies</h5>
+<ul>
+  <li>Light and Medium Armor</li>
+  <li>Simple and Martial Weapons</li>
+  <li>Choose 3 skills from the following list, you start with 2 skill point in them:
+    <ul>
+      <li>Animal Handling</li>
+      <li>Athletics</li>
+      <li>Fight</li>
+      <li>Nature</li>
+      <li>Perception</li>
+      <li>Shoot</li>
+      <li>Stealth</li>
+      <li>Survival</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="ranger-feats">Ranger Feats</h3>
+<ul>
+  <li><strong>Sneak Attack(1[*lvl] AP)</strong>: When attacking an unaware enemy, or a flanked enemy, deal an additional 1d6[*lvl] damage.</li>
+  <li><strong>Crippling Arrow (1 AP)</strong>: The next ranged attack, if deals damage, halves the movements speed of the target for 2 rounds. <strong>(cost: 1 mana)</strong></li>
+  <li><strong>Pet Companion (1 AP)</strong>: You get a pet companion. <a href="../haven-rpg-additional/ranger-pets">Pet List</a></li>
+  <li><strong>Retreat (2 AP)</strong>: You can exit the threat area of an enemy without giving them attacks of opportunity.</li>
+</ul>
+
+<hr />
+
+<h2 id="priest-medium">Priest (<strong>Medium</strong>)</h2>
+<ul>
+  <li>HP: 12</li>
+  <li>Mana: 2</li>
+</ul>
+
+<h5 id="proficiencies-2">Proficiencies</h5>
+<ul>
+  <li>Light and Medium Armor</li>
+  <li>Simple and Martial Weapons</li>
+  <li>Choose 3 skills from the following list, you start with 2 skill point in them:
+    <ul>
+      <li>Contacts</li>
+      <li>Fight</li>
+      <li>History</li>
+      <li>Insight</li>
+      <li>Medicine</li>
+      <li>Physique</li>
+      <li>Religion</li>
+      <li>Will</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="priest-feats">Priest Feats</h3>
+<ul>
+  <li><strong>Heal (1[*lvl] AP)</strong>: Touch an ally to heal them by 1d4*lvl. <em>(1[*lvl] mana)</em></li>
+  <li><strong>Blessing (1 AP)</strong>: Give an ally 1d4 bonus on all overcome and create advantage checks for 10 minutes. <em>(cost: 1 mana)</em>
+    <ul>
+      <li><strong>Radiant Barrier (1 AP)</strong>: Give an ally an additional 2 armor for 1 minute. <em>(cost: 1 mana)</em></li>
+    </ul>
+  </li>
+  <li><strong>Smite (1 AP)</strong>: Attack an enemy with a melee weapon using <strong><em>Will</em></strong>. If it hits it deals an additional 1d6 radiant damage. <em>(cost: 1 mana)</em></li>
+</ul>
+
+<hr />
+
+<h2 id="sorcerer-light">Sorcerer (<strong>Light</strong>)</h2>
+<ul>
+  <li>HP: 8</li>
+  <li>Mana: 4</li>
+</ul>
+
+<h5 id="proficiencies-3">Proficiencies</h5>
+<ul>
+  <li>Light Armor</li>
+  <li>Simple Weapons</li>
+  <li>Choose 3 skills from the following list, you start with 2 skill point in them:
+    <ul>
+      <li>Arcana</li>
+      <li>Craft</li>
+      <li>Fight</li>
+      <li>History</li>
+      <li>Investigation</li>
+      <li>Perception</li>
+      <li>Shoot</li>
+      <li>Will</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="sorcerer-feats">Sorcerer Feats</h3>
+<ul>
+  <li><strong>Shield (1 AP)</strong>: Reduce the damage you are taking by 1d8. Use as reaction <em>(cost: 1 mana)</em></li>
+  <li><strong>Haste (1AP)</strong>: For up to 10 turns, you move twice as fast and can take an addition action each turn. <em>(cost: 2 mana)</em></li>
+  <li><strong>Combat Magic (1 AP)</strong>: You can use the <strong>Will</strong> skill to perform attack and defend actions
+  <strong>Attack</strong>: deal 1d4 elemental damage of your choice, 10m range.
+  <strong>Defend</strong>: Create a melee barrier tha blocks the strike, on a natural 20 choose one: daze the attacker for 2 round or blink up to 15ft in any direction.
+    <ul>
+      <li><em>_Firebolt (1[*lvl] AP)__: Shoot a Firebolt from your hand, dealing 1d8[*lvl] fire damage. _(cost: 1[*lvl] mana)</em></li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="bard-light">Bard (<em>Light</em>)</h2>
+<ul>
+  <li>HP: 10</li>
+  <li>Mana: 3</li>
+</ul>
+
+<h5 id="proficiencies-4">Proficiencies</h5>
+<ul>
+  <li>Light Armor</li>
+  <li>Simple Weapons</li>
+  <li>Choose 3 skills from the following list, you start with 2 skill point in them:
+    <ul>
+      <li>Arcana</li>
+      <li>Athletics</li>
+      <li>Contacts</li>
+      <li>Deception</li>
+      <li>Insight</li>
+      <li>Investigation</li>
+      <li>Perception</li>
+      <li>Performance</li>
+      <li>Persuasion</li>
+      <li>Sleight of Hand</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="bard-feats">Bard Feats</h3>
+<ul>
+  <li><strong>Healing Song (1 AP)</strong>: Start playing a song, all friendly creatures that can hear you regain 1 HP. Each round you may use your bonus action to keep playing. (2 mana)</li>
+  <li><strong>Inspire courage (1 AP)</strong>: Start playing a song,all friendly creatures that can hear you gain +2 on all <strong><em>Attack</em></strong> and <strong><em>Defend</em></strong> rolls. Each round  you may use your bonus action to keep playing. (1 mana)</li>
+  <li><strong>Charm Person (1 AP)</strong>: Enchant a person to believe you are they’re friend for 10 minutes. They will do anything you say. Effect ends early if you order them to do anything armful. (cost: 2 mana)</li>
+  <li><strong>Power Chord (1 AP)</strong>: You can use the <strong>Will</strong> skill to perform attack actions. <strong>Attack</strong>: deal 1d4 psychic damage, 10m range.</li>
+</ul>
+
+<hr />
+<p><a href="../haven-rpg-additional/weapons-and-armors" class="btn btn-info">Weapons and Amors</a>
+<a href="../haven-rpg-additional/general-feats" class="btn btn-info">General Feats</a>
+<a href="../haven-rpg-additional/monsters" class="btn btn-danger">Monsters</a>
+<a href="../haven-rpg-additional/combat" class="btn btn-success">Combat Rules</a></p>
+:ET
