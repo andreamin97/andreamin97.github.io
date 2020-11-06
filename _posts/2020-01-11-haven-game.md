@@ -5,7 +5,7 @@ date:   2020-01-11
 excerpt: "Simple d20 RPG system."
 project: true
 tag:
-- rpg
+- RPG
 - haven
 comments: false
 ---
