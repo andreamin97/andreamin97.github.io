@@ -38,6 +38,7 @@ disqus_shortname:   andreamin97
   #ad-slot:
 #bing-verify:
 email:              andrea.minucci97@gmail.com
+itch: andreamin97
 twitter:            andreamin97
 #facebook:           username
 github-url:         andreamin97
@@ -61,7 +62,7 @@ github-url:         andreamin97
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-itch: andreamin97
+
 
 # Gems
 gems:
