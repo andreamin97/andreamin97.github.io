@@ -1,0 +1,25 @@
+I"�<p>After some playtesting, the necessity for some more explicit synergies has become pretty evident; but I still wanna try to stay away from the way Autobattlers have done it so far: I don’t want them to be completely explicit, but closer to what card games do with archetypes, I want to encourage players to use some units together, but also not force them and let them experiment and find unorthodox combinations.</p>
+
+<p>I decided to start with just 3 archetypes and add some slight overlapping in units. The archetypes are:</p>
+
+<ul>
+  <li>Vanguards: The most basic archetype, in CCGs terms, it would be the quintessential midrange. Stereotypical bruisers, good survivability, good damage, and good crowd controls, but don’t excel in anything. Mostly melee.</li>
+  <li>Spells Matter: The “combo” archetype, the units have very clear windows of power; are very reliant on their abilities.</li>
+  <li>Berserkers: The “aggro” archetype, what they lack in survivability they get into raw damage.</li>
+</ul>
+
+<p>Then I need to define the sub-categorisation of units to define their role in their archetypes:</p>
+
+<ul>
+  <li>Core: the most important units of the archetype, without at least one of them the plan falls apart. There should be 2 to 3 for each archetype.</li>
+  <li>Enablers: Help to unleash the full potential of the core units. There should be 3 to 5 for each archetype.</li>
+  <li>Support: Help filling in the holes the archetype might have and support the overall plan, often times these units are the ones that share archetypes. There should be 3 to 5 for each archetype.</li>
+  <li>Fillers: These would be mostly low-powered in theme units. Mostly used in the early stages of the game.</li>
+</ul>
+
+<figure>
+    <a href="/assets/img/archetypes_diagramm.jpg"><img src="/assets/img/archetypes_diagramm.jpg" /></a>
+    <figcaption>How the classes are divided in the 3 archetypes</figcaption>
+</figure>
+
+:ET
