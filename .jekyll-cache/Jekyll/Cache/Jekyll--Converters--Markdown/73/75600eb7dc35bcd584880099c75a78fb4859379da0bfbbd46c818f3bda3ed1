@@ -1,0 +1,24 @@
+I"^	<p>I have never liked Unity too much, I can’t exactly say why, but I’d guess it’s because I have been using Unreal since 4.7 and I’m too accustomed to its workflow.
+But I have to admit that during these past few weeks it started to grow on me; I started to appreciate its simplicity.
+Well, this week the honeymoon phase ended: while I still like some parts of Unity, there are some that I despise, in particular the AI and NavMeshSystem.</p>
+
+<p>Now, it’s doing fine for what I need for now, but there are the occasional slip ups that are really demoralising me, for example: MavMeshAgents do not count as obstacles, therefore other agents when trying to walk towards their target will go in a straight line and try go walk through them, causing it to push the other agent, while never reaching its target. Fortunately it doesn’t happen too often that it completely breaks the game, but it’s big enough to be <strong>very</strong> annoying when it happens. Another big issue I’ve encountered is the fact that physics forces can’t be applied to GameObjects with the NavMeshAgent component. I wanted some abilities to knock targets around and that would have been the easiest way. For now I’m just warping the target around and will look into a more suitable solution in the next couple of weeks, around when I’ll properly implement the ability system.</p>
+
+<p>Anyway, rant over, lets go back to my AI.</p>
+
+<p>It’s very simple for now: once the player click “Fight”, every unit is going to look for the closest enemy and set it as its target, this is going to be the same until it dies; the unit is going to move to the target position until it’s in attack range and then it’s going to attack it based on the class’ attack speed</p>
+
+<figure>
+ <a href="/assets/img/ai-graph.png"><img src="/assets/img/ai-graph.png" /></a>
+    <figcaption>Simple Graph of the AI</figcaption>
+</figure>
+
+<p>Once I implement the ability system I’ll add the casting of abilities in there, with the way I implemented the AI it should be pretty fast and painless.</p>
+
+<p>Well, that’s it for this entry, next week I will talk about the player units and the classes design.</p>
+
+<figure>
+ <a href="https://i.gyazo.com/0fec2f5d11a8a000c17313536c24ca17.gif"><img src="https://i.gyazo.com/0fec2f5d11a8a000c17313536c24ca17.gif" /></a>
+    <figcaption>The AI at work</figcaption>
+</figure>
+:ET

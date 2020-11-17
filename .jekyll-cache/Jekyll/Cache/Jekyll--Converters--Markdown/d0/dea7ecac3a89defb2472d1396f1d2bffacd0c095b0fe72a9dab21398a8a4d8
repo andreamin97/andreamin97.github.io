@@ -1,0 +1,14 @@
+I"�<p>It’s finally time for the first iteration of the ability system.
+ I have to admit that it had come out pretty janky and very designer unfriendly, because of some previous choices (all of which will be rectified in the coming weeks, in preparation for the next iteration of the ability system, I already have so many things I want to change and improve), but it actually workes wonders, and the only bugs I’ve encountered while making abilities were because of me and not the system itself.</p>
+
+<p>So, the system: it’s quite simple really, I made an “Ability” class and derive all abilities from it, pretty standard so far.
+“Ability” has a “Cast” function to be overridden that returns a bool representing if it’s still casting the spell or not; this way it’s very easy to create passive abilities and cast times, because I am plugging the cast ability in the AI update. And that’s it really, in the AI controller update, I check if the unit’s ability is either not in CD or is still casting and if so I call again the function, otherwise it moves/attacks.</p>
+
+<p>Now when I said it’s very designer unfriendly, it’s because after some implementation choices I made at the beginning, I had no way to assign abilities in the editor to each class, instead I have a big switch statement in the unit base class that looks at the class and then attaches the right ability script at runtime… yes I know, bad; but I’m already doing some refactoring to make everything good again. I’ll go into details in the Ability System v2 post that will come out in a few weeks.</p>
+
+<p>For now enjoy some funny bugs:</p>
+
+<figure class="half">
+    &lt; a href="/videos/Desktop-20201013-22295103.gif"&gt;<img src="/videos/Desktop-20201013-22295103.gigif" />
+</figure>
+:ET

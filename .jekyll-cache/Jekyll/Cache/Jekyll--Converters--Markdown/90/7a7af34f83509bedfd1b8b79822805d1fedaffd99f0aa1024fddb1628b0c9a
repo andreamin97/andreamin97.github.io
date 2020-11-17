@@ -1,0 +1,26 @@
+I"�<p>This week I started implementing some base systems for the prototype; I knew that for sure I had to have <strong>Units</strong>, be able to <strong>Buy</strong> them and be able to <strong>Move</strong> them on them <strong>Board</strong>.</p>
+
+<h2 id="units">Units</h2>
+
+<p>For the units I made a simple scriptable object containing all the necessary information (stats, mesh, etc. etc.) so that I could easily create new classes from the editor. I only put some basic stuff in this class and then Derived two more classes, one for the player Units and one for the enemies.</p>
+
+<h2 id="buying-units">Buying Units</h2>
+
+<p>Once I had something to buy I made a very quick shop UI, and scripted the shop. It simply has a list of “Classes” (the player unit class) and it picks one at random for each slot. 
+When the player clicks the button, it spawns a prefab, assigns it the Class script and call an init function to set the mesh, and show it.</p>
+
+<p>Here I made sure that the units could only be spawned on a free bench slot (if there is one), but I’ll go into more detail in a second.</p>
+
+<p>At this point I’m also preparing for the AI, I already have set up a nav-mesh and the NavMeshAgent on the Unit prefab; and here I encountered a small problem, where just spawning the unit, even if technically it was on the navmesh, would give an error. I had to start the spawning with the navmeshAgent disabled, explicitly check for the closest point on the navmesh to where I want to spawn it, spawn the unit at that position, and only then enable the NavMeshAgent component.</p>
+
+<h2 id="the-board">The board</h2>
+
+<p>Before going into the “moving the units” part, lets talk about the board. The board is made of two half-boards; each half-board is comprised of 32 tiles (in a 4x8 grid), each tile has the mesh and a tile script, to keep track of which unit is where (which, among other things, is used to both deploy the enemy boards given a position of each unit and to move the player units to their position after a fight).</p>
+
+<h2 id="moving-the-units">Moving the Units</h2>
+<p>And now for moving the units; it’s quite easy: on the unit script I check when it’s getting clicked on, when it does it saves its current position and disables the gravity. Then I have an OnDrag() function, when it gets triggered it gets from the player controller the position of the tile the mouse is hovering and sets itself at that position plus a vertical offset. When I let go of the click it re-enables the gravity. So now the units moves and snaps to the grid, one small issue I was facing was that I could drop multiple units on the same board tile. I knew I wanted the interaction to be that the two units swap position, so I just make a physics check on the click release to see if it overlaps another unit, if it does it calls a Swap() function passing it its own previous position and… Done!</p>
+
+<figure class="half">
+    &lt; a href="/videos/Desktop 2020.10.13 - 22.29.51.03.mp4"&gt;<img src="/videos/Desktop 2020.10.13 - 22.29.51.03.mp4" />
+</figure>
+:ET
