@@ -1,0 +1,28 @@
+
+---
+layout: post
+title:  "DragonAutochess DES304 Dev Log 8"
+date:   2020-12-16
+excerpt: "Rewriting the Units' and Abilities' systems to use Prefabs and MonoBehaviours instead of ScriptableObjcts"
+project: null
+tag:
+- des304
+- game design
+- dev log
+- DragonAutochess
+comments: false
+---
+
+After trying to understand how to add multiple spells to characters, I decided to slighty change how the unit and ability systems work. This choice was also informed by some extremely tangles spaghetti code that I really didn't like: Because the spells where MonoBehaviours they had to be attached to units as components, but units where initialized when spawned. Therefore I had to also spawn and attach the correct spell when creating the unit. For a small amount of units that would've been annoying but manageable, but the scalability of the system was horrible.
+
+Therefore the choice to have prefabs for each units, and somewhat ditch the ScriptableObject classes (for now they are still kind of in use, when I spawn the prefab I initialize the stats to the ones in the ScriptableObect unit class, just as I did in the previous system, It's not necessary as soon as I set the correct stat values to the unit script on each prefab, but for now I deemed my time better spent on some some other part o of the project, like adding some variance).
+
+Finally I modified the AI Controller to, instead of keeping a reference to one abbility, to have an array of abilities, and then when it checks if it can cast an ability if tries them in order. This way it's easy to set spell priority in case all spell can be casted at the same time: the higher the position in the component hirerarchy, the higher the priority to be cast.
+
+What this new system now allows is:
+-	The creation of units is more straight forward and designer friendly: there is no more need to go touch the code to make sure the unit spawns with the correct spell and to properly initialize it; now we just have to create a prefab variant of the base unit, set the stats and attach the spell.
+-	Units can have multiple spells and designers have an easy way to prioritize the cast order.
+-	It is now very easy to also create different rarity units and add them to the shop.
+
+There are still some changes to be made to the project to fully port it to the new systems, for now it's working in an hybrid state, for example the enemy units still use the old system. I'm prioritizing working on the last couple mechanics that I want to be in the final project, over porting some stuff to the new system. But it should take only a couple of hours to do, so if I end up having enough time, I'll do it, just no promises :).
+

@@ -16,5 +16,4 @@ Dragon Autochess is a project that I had been thinking for a while. The idea of 
 
 Autobattlers already share some things with card games, but with this project I'm trying to push it even more, ideally by the end it will look more like "Hearthstone Battlegrounds" where units can move on the field than other autobattlers. I'm trying to not implement explicit synergies between units, but rather to create looser archetypes and let the players mix and match the units more freely.
 
-For now the prototype can be found on Itch
-<a href="https://andreamin97.itch.io/dragonautochess" class="btn btn-info">Dragon Autochess</a>
+<a href="https://andreamin97.itch.io/dragonautochess" class="btn btn-info">You can find the prototype on Itch</a>
