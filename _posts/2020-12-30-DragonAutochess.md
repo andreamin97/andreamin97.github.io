@@ -2,7 +2,7 @@
 layout: post
 title:  "Dragon Autochess"
 date:   2020-12-30
-excerpt: "The roguelike autobattler"
+excerpt: "An experimentation for a roguelike autobattler"
 project: true
 tag:
 - design
