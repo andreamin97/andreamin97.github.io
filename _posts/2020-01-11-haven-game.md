@@ -21,3 +21,4 @@ One of my main focus was to create an horizontal character progression: characte
 The game for now is classic fantasy ideally sent in the city of Haven and surroundings. Haven is a pirate city in the middle of mostly unexplored territories; imagine "Black Sails" meets "The Lord of the Rings". Unfortunately the setting is still in the works, but the third draft of the game manual is out :)
 
 <a href="https://drive.google.com/file/d/1h0sevLZ7I2OpxaV86z0ET8V8y0DVBW-n/view?usp=sharing" class="btn btn-info">Download the game manual here</a>
+<a href="https://havenrpgdesign.netlify.app/" class="btn btn-info">Design Wiki</a>
