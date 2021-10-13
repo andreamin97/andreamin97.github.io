@@ -2,7 +2,7 @@
 layout: post
 title:  "Haven RPG"
 date:   2020-01-11
-excerpt: "A simple but deadly d20 RPG system."
+excerpt: "An easy to learn tabletop rpg for short campaigns"
 project: true
 tag:
 - RPG
