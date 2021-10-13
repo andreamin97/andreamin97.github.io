@@ -12,11 +12,11 @@ tag:
 comments: false
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=VfOWiUz5j7w" frameborder="0"> </iframe>
+Engine: Unity
+Team size: 1
 
-Dragon Autochess is a project that I had been thinking for a while. The idea of an auto-battler roguelike felt a pretty interesting thing to explore. I started developing for a university module, but I want to explore it further.
-
-Autobattlers already share some things with card games, but with this project I'm trying to push it even more, ideally by the end it will look more like "Hearthstone Battlegrounds" where units can move on the field than other autobattlers. I'm trying to not implement explicit synergies between units, but rather to create looser archetypes and let the players mix and match the units more freely.
+Dragon Autochess is my experimentation with autobattlers in a roguelike environment.
+I focused on archetypes and units design and some balance. Being also the project for the "Data Analytics" module, it was my introdution to that subject.
 
 <a href="https://andreamin97.itch.io/dragonautochess" class="btn btn-info">Prototype</a>
 <a href="https://dragonautochess-design-wiki.netlify.app/" class="btn btn-info">Design Wiki</a>
