@@ -15,6 +15,7 @@ comments: false
 
 Engine: Unity
 Team size: 1
+Development time: 3 months
 
 Dragon Autochess is my experimentation with autobattlers in a roguelike environment.
 I focused on archetypes and units design and some balance. Being also the project for the "Data Analytics" module, it was my introdution to that subject.
