@@ -12,7 +12,7 @@ tag:
 comments: false
 ---
 
-<iframe width="560" height="315" src="https://youtu.be/VfOWiUz5j7w" frameborder="0"> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=VfOWiUz5j7w" frameborder="0"> </iframe>
 
 Dragon Autochess is a project that I had been thinking for a while. The idea of an auto-battler roguelike felt a pretty interesting thing to explore. I started developing for a university module, but I want to explore it further.
 
